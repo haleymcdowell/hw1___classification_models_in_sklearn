@@ -1,1 +1,5 @@
-Organize the various modeling and analysis outputs in this folder.
+EDA documentation:
+ - "sweetviz_report.html"
+ 
+ Decision Tree documentation:
+  - "decision_tree.png"

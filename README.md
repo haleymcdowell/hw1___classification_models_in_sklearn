@@ -1,67 +1,46 @@
 # HW1 - Classification models in sklearn
 
-Information on using this cookiecutter
+This project utilizes sklearn classification models and pipelines to predict home sale prices in Seattle and 
+King County, WA (May 2014 - 2015).
 
-Development workflows
+This project is under version control: https://github.com/haleymcdowell/hw1___classification_models_in_sklearn
+
+Important documents:
 =======================
 
-Create new project
-----------------------
+Main Project Folder:
+ - "hw1_mcdowell.ipynb" - This is the Jupyter Notebook where I completed all work for this project.
+ 
 
-You've already done this if you are reading this file. You ran:
+./output Folder:
+ - "sweetviz_report.html" - This is the HTML file containing the SweetViz report I created for Task 3.
+ - "decision_tree.png" - This is a png image of the decision tree I created for Task 5.
 
-```bash
-cookiecutter gh:haleymcdowell/cookiecutter-datascience-simple
-```
-
-Put project under version control
----------------------------------
-
-Let's get version control set up. You don't absolutely have to do this, but you should. For the local repository, do;
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-For the remote repository, make a github repository named HW1 - Classification models in sklearn, then do;
-
-```bash
-git remote add origin git@github.com:haleymcdowell/HW1 - Classification models in sklearn.git
-git branch -M main
-git push -u origin main
-```
-
-Great. Using version control is good.
-
-
-Folder structure
------------------
-
-Here's the folder structure that gets created by `cookiecutter-datascience-simple`:
-
-	├── HW1 - Classification models in sklearn	<- Your notebooks and scripts will live in the main project folder
-		│   .gitignore					<- Common file types for git to ignore
-		│   README.md					<- The top-level README for developers (you) using this project
-		│   template-nb.ipynb			<- A Jupyter notebook template
+Folder Structure:
+========================
+	├── HW1 - Classification models in sklearn
+		│   aap_hw1_s25_sklearn.ipynb
+		│   hw1_mcdowell.ipynb
+		│   hw1_sklearn_dataprep.ipynb
+		│   .gitignore				
+		│   README.md					
 		│
-		├───data						<- Final and intermediate data
-		│   └───raw						<- The original, immutable data dump
+		├───data
+		│   kc_house_data_classification.csv
+		│   kc_house_data_regression.csv
+		│   └───raw	
+		│       kc_house_data_original.csv
 		│
 		├───docs
-		│       notes.md				<- Simple markdown template for project notes
+		│       notes.md				
 		│
 		└───output
-				readme.md				<- Guidance for using this folder
-
-
-Documentation
---------------
-
-In this very simple project structure template, we've just included a markdown file with some typical
-section headings to use for project notes. Expand as desired. Later in the semester we will learn how to
-use Sphinx with restructuredText to write and generate documentation.
-
+		|		decision_tree
+		|		decision_tree.png
+		|		decision_tree.png.pdf
+		|		readme.md	
+		|		Source.gv
+		|		Source.gv.pdf
+		|		sweetviz_report.html
 
 
